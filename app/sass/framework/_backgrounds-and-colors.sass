@@ -1,4 +1,4 @@
-@each $value in white_#{$colorWhite}, black_#{$colorBlack}, black-7_#{rgba($colorBlack, .7)}, smoky-white_#{$colorSmokyWhite}
+@each $value in white_#{$colorWhite}, black_#{$colorBlack}, black-7_#{rgba($colorBlack, .7)}, smoky-white_#{$colorSmokyWhite}, gray_#{$colorGray}, orange_#{$colorOrange}
 	$values: str_split($value, '_')
 	$color: nth($values, 2)
 	$colorName: nth($values, 1)

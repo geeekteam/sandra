@@ -1,47 +1,55 @@
 <header class="header fw-flex fw-flex-column">
     <div class="fw-flex fw-flex-middle fw-bg-color-smoky-white">
         <div class="container">
-            <div class="fw-flex fw-flex-middle fw-pt-10 fw-pb-10">
-                <div class="fw-mr-100">Интернет-магазин парфюма и косметики</div>
+            <div class="header-top">
+                <div class="header__main-menu">
+                    <div class="button-hamburger js-open-popup" data-popup-target="mobile-menu">
+                        <span class="button-hamburger__line"></span>
+                        <span class="button-hamburger__line"></span>
+                        <span class="button-hamburger__line"></span>
+                    </div>
+                </div>
+                <div class="header__shop-title">Интернет-магазин парфюма и косметики</div>
                 <ul class="fw-flex fw-flex-middle header-top-menu">
-                    <li class="header-top-menu__item"><a class="header-top-menu__item-link active" href="#">О нас</a>
-                    </li>
-                    <li class="header-top-menu__item"><a class="header-top-menu__item-link" href="#">Доставка и
-                            оплата</a></li>
+                    <li class="header-top-menu__item"><a class="header-top-menu__item-link active" href="#">О нас</a></li>
+                    <li class="header-top-menu__item"><a class="header-top-menu__item-link" href="#">Доставка и оплата</a></li>
                     <li class="header-top-menu__item"><a class="header-top-menu__item-link" href="#">Отзывы</a></li>
                     <li class="header-top-menu__item"><a class="header-top-menu__item-link" href="#">Возврат</a></li>
                     <li class="header-top-menu__item"><a class="header-top-menu__item-link" href="#">Контакты</a></li>
                 </ul>
+                <div class="header-btn-wrapper">
+                    <span class="header-btn js-open-popup" data-popup-target="feedback">Заказать звонок</span>
+                </div>
             </div>
-        </div>
-        <div>
-            <span class="header-btn">Заказать звонок</span>
         </div>
     </div>
-    <div class="container">
-        <div class="fw-flex fw-flex-middle">
-            <div class="logo-wrapper fw-mb-20">
-                <img class="logo-image" src="" alt="">
-            </div>
-            <div class="site-name fw-mr-190">
-                Sandra
-            </div>
-            <div class="fw-flex fw-flex-middle fw-width-230 fw-mr-60">
-                <div class="trigger-icon"><i class="icon-parfume"></i></div>
-                <div class="">Лучшие предложения по наборам и парфюму</div>
-            </div>
-            <div class="fw-flex fw-flex-middle fw-width-230 fw-mr-130">
-                <div class="trigger-icon"><i class="icon-delivery"></i></div>
-                <div class="">Доставка по всему Казахстану</div>
-            </div>
-            <div class="fw-flex fw-flex-column">
-                <div class="">Ежедневно 10:00 - 21:00</div>
-                <div class="">+7 (7232) 12 34 56</div>
+    <div class="fw-pt-10 fw-pb-10">
+        <div class="container">
+            <div class="header-middle">
+                <a href="/" class="header-middle__logo">
+                    <i class="icon-logo"></i>
+                </a>
+                <div class="header-middle__trigger">
+                    <div class="trigger-icon">
+                        <img class="trigger-icon__parfume svg svg_black" src="images/icon-parfume.svg" alt="">
+                    </div>
+                    <div class="fw-fz-14">Лучшие предложения по наборам и парфюму</div>
+                </div>
+                <div class="header-middle__trigger">
+                    <div class="trigger-icon">
+                        <img class="trigger-icon__delivery svg svg_black" src="images/icon-delivery.svg" alt="">
+                    </div>
+                    <div class="fw-fz-14">Доставка по всему Казахстану</div>
+                </div>
+                <div class="header-middle__schedule">
+                    <div class="fw-fz-14">Ежедневно 10:00 - 21:00</div>
+                    <div class="fw-fz-24">+7 (7232) 12 34 56</div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="fw-bg-color-black">
+    <div class="header-main-menu">
         <div class="container">
             <ul class="main-menu">
                 <li class="main-menu__item"><a class="main-menu__item-link" href="#">Парфюмированные наборы</a></li>
@@ -49,6 +57,11 @@
                 <li class="main-menu__item"><a class="main-menu__item-link" href="#">Миниатюрный парфюм</a></li>
                 <li class="main-menu__item"><a class="main-menu__item-link" href="#">Нишевый парфюм</a></li>
             </ul>
+            <div class="basket js-open-popup" data-popup-target="cart">
+                <img src="images/icon-cart.svg" alt="" class="basket__icon svg svg_white">
+                <span class="fw-fz-14 fw-color-white">(1)</span>
+            </div>
         </div>
     </div>
+
 </header>
