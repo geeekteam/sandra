@@ -15323,6 +15323,7 @@ p {
   width: 115px;
   height: 55px;
   cursor: pointer;
+  z-index: 20;
 }
 
 .product-buying {
